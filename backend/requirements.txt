@@ -1,5 +1,11 @@
+# 核心依赖
 Flask==3.0.0
 Flask-CORS==4.0.0
 boto3==1.29.0
 botocore==1.32.0
 python-dotenv==1.0.0
+
+# AI服务依赖（可选）
+# 安装所有AI依赖: pip install openai anthropic
+openai>=1.0.0  # 可选，用于OpenAI GPT模型
+anthropic>=0.18.0  # 可选，用于Anthropic Claude模型
